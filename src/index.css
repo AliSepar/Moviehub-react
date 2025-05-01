@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* hide scroll bar */
+/* .row__posters::-webkit-scrollbar{ 
+    display: none !important;
+  } */
+
+  
+/* Scrollbar Styles (WebKit Browsers) */
+.scroll-x-container::-webkit-scrollbar {
+  height: 8px; /* horizontal scrollbar height */
+}
+
+.scroll-x-container::-webkit-scrollbar-track {
+  background: black;
+}
+
+.scroll-x-container::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 4px;
+}
+
+/* Scrollbar Styles (Firefox) */
+.scroll-x-container {
+  scrollbar-width: thin;
+  scrollbar-color: gray black;
+}
