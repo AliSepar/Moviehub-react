@@ -44,19 +44,6 @@ function Row({ title, fetchUlr, isLargeRow }) {
   }
 
   const handleClick = async (movie) => {
-    // if (trailerUrl !== "") {
-    //   setTrailerUrl("");
-    // } else {
-    //   movieTrailer(movie?.name || movie?.title || movie?.original_name || "")
-    //     .then((url) => {
-    //       // https://www.youtube.com/watch?v=XtMThy8QKqU to get the movie id
-    //       const urlParams = new URLSearchParams(new URL(url).search);
-    //       setTrailerUrl(urlParams.get("v"));
-    //       // TODO: you can simplify it with another api request which has the video id
-    //     })
-    //     .catch((error) => console.log("Trailer not found", error));
-    // }
-
     if (trailerUrl !== "") {
       setTrailerUrl("");
     } else {
